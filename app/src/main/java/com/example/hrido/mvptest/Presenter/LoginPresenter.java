@@ -1,7 +1,8 @@
 package com.example.hrido.mvptest.Presenter;
 
+import com.example.hrido.mvptest.Controller.ILoginPresenter;
 import com.example.hrido.mvptest.Model.User;
-import com.example.hrido.mvptest.View.ILoginView;
+import com.example.hrido.mvptest.Controller.ILoginView;
 
 public class LoginPresenter implements ILoginPresenter {
 ILoginView loginView;

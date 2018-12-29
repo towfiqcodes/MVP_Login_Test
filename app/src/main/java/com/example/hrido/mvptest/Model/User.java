@@ -3,6 +3,8 @@ package com.example.hrido.mvptest.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
+import com.example.hrido.mvptest.Controller.IUser;
+
 public class User implements IUser {
     String email,password;
 

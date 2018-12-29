@@ -1,4 +1,4 @@
-package com.example.hrido.mvptest
+package com.example.hrido.mvptest.View
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -7,9 +7,10 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 
-import com.example.hrido.mvptest.Presenter.ILoginPresenter
+import com.example.hrido.mvptest.Controller.ILoginPresenter
 import com.example.hrido.mvptest.Presenter.LoginPresenter
-import com.example.hrido.mvptest.View.ILoginView
+import com.example.hrido.mvptest.Controller.ILoginView
+import com.example.hrido.mvptest.R
 
 import es.dmoral.toasty.Toasty
 

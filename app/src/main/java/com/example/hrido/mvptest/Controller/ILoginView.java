@@ -1,4 +1,4 @@
-package com.example.hrido.mvptest.View;
+package com.example.hrido.mvptest.Controller;
 
 public interface ILoginView {
     void onLoginSuccess(String message);
